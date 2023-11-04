@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Liên hệ thuê xe</title>
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            width: 400px;
+            margin: 100px auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333333;
+        }
+        
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #333333;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #555555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Liên hệ thuê xe</h1>
+        <form>
+            <input type="text" name="name" placeholder="Họ và tên" required>
+            <input type="text" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Nội dung tin nhắn" rows="5" required></textarea>
+            <input type="submit" value="Gửi tin nhắn">
+        </form>
+    </div>
+</body>
+</html>
